@@ -5,7 +5,7 @@ pipeline {
       BRANCH_NAME = 'main'
       GIT_URL = 'https://github.com/yusuff0909/aws-cicd.git' 
       IMAGE_TAG = 'yusuff0909/aws-cicd'
-      IMAGE_VERSION = ${BUILD_NUMBER}
+      IMAGE_VERSION = "${BUILD_NUMBER}"
     }
 
     stages {
