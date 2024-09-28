@@ -20,8 +20,5 @@ pipeline {
             sh 'docker images'
         }
       }
-      stage('test'){
-        echo 'Testing the application'
-      }
     }
 }
