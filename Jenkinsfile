@@ -20,5 +20,8 @@ pipeline {
             sh 'docker images'
         }
       }
-    }
+      stage('test') {
+            steps {
+                sh 'echo "Testing.."'
+            }
 }
